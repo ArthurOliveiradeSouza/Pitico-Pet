@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*Paleta de cores:
+    #258ea6 --> Azul(claro)
+    #d36135 --> Marrom
+    #f4fffd --> Branco(sem ser o branco absoluto)
+    #011936 --> Azul(escuro)
+    #465362 --> Cinza
+*/
+
+:root {
+    --AzulClaro: #258ea6;   /*Cor do texto: preto*/
+    --Marrom: #d36135;      /*Cor do texto: preto*/
+    --Branco: #f4fffd;      /*Cor do texto: preto*/
+    --AzulEscuro: #011936;  /*Cor do texto: branco*/
+    --Cinza: #465362;       /*Cor do texto: branco*/
+}
+
+body {
+    /*Preciso terminar de arrumar esse código*/
+    background-image : url(Img/ImgCad/Fundo.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    background-color: var(--AzulEscuro);
+    color: white;
+    border-radius: 20px;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 145px 45px 125px;
+}
+
+.Name {
+    display: block;
+}
+
+.E_mail {
+    display: block;
+}
+
+.codigo {
+    display: block;
+}
+
+button {
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    position: absolute;
+    left: 40%;
+}
+
+@media (width <= 1500px) {
+    body {
+        background-size: 1500px 768px; 
+    }
+}
+
+@media (width <= 1250px) {
+    body {
+        background-size: 1250px 768px ; 
+    }
+}
+
+/* Tamanho mínimo da tela do Notebook e máximo da tela do tablet */
+@media (width <= 1024px) { 
+    body {
+        background-size: 1024px 600px; 
+    }
+}
+
+@media (width <= 920px) {
+    body {
+        background-size: 920px 600px; 
+    }
+}
+
+/* Tamanho mínimo da tela do tablet */
+@media (width <= 768px) {
+    body {
+        background-size: 768px 600px; 
+    }
+}
+
+/* Tamanho da tela do celular */
+@media (width < 767px) {
+    body {
+        background-size: 767px 400px; 
+    }
+}
+
+
+
+
+

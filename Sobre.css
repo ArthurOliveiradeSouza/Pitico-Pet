@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*Paleta de cores:
+    #258ea6 --> Azul(claro)
+    #d36135 --> Marrom
+    #f4fffd --> Branco(sem ser o branco absoluto)
+    #011936 --> Azul(escuro)
+    #465362 --> Cinza
+*/
+
+:root {
+    --AzulClaro: #258ea6;   /*Cor do texto: preto*/
+    --Marrom: #d36135;      /*Cor do texto: preto*/
+    --Branco: #f4fffd;      /*Cor do texto: preto*/
+    --AzulEscuro: #011936;  /*Cor do texto: branco*/
+    --Cinza: #465362;       /*Cor do texto: branco*/
+}
+
+body {
+    background-color: var(--Branco);
+}
+
+header {
+    background-color: var(--AzulEscuro);
+    text-align: center;
+    margin: -4px;
+    padding: 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+.historia {
+    background-color: var(--Cinza);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+.qualy {
+    background-color: var(--Cinza);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 5px;
+    color: white;
+    border-radius: 12px;
+}
+
+.qualy a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.qualy a:hover {
+    font-size: 19px;
+    transition-duration: .15s;
+    font-style: italic;
+}
+
+img {
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+#cadastro {
+    position: fixed;
+    right: 1%;
+    top: 1%;
+    color: white;
+    background-color: var(--Marrom);
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#cadastro:hover {
+    font-style: oblique;
+    font-size: 18px;
+    transition-duration: 0.25s;
+}
+
+.localizacao {
+    background-color: var(--Cinza);
+    margin-top: 15px;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 5px;
+    color: white;
+    border-radius: 12px;
+}
+
+.localizacao a {
+    color:aquamarine;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.localizacao a:hover {
+    font-size: 19px;
+    transition-duration: .15s;
+}
+
+.diferente {
+    background-color: var(--Marrom);
+    margin: 15px -5px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: var(--AzulClaro);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+#github {
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+#youtube {
+    color: black;
+    text-decoration: none;
+}
+
+#github:hover {
+    color: blueviolet;
+    transition-duration: 0.25s;
+    font-size: 1.2em;
+}
+
+#youtube:hover {
+    color: red;
+    transition-duration: 0.25s;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: var(--AzulClaro);
+    padding: 8px;
+    margin: 5px -5px 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+nav a {
+    padding: 8px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #32c6e7;
+    transition-duration: .5s;
+    transition-delay: 1ms;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+/*
+    TURMA:148
+    NOME:Arthur Oliveira de Souza
+    NOME:Daniel Lucas Vasconcelos Hermenegildo
+    NOME:Carlos Eduardo da Silva Salvino
+*/

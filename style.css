@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*Paleta de cores:
+    #258ea6 --> Azul(claro)
+    #d36135 --> Marrom
+    #f4fffd --> Branco(sem ser o branco absoluto)
+    #011936 --> Azul(escuro)
+    #465362 --> Cinza
+*/
+
+:root {
+    --AzulClaro: #258ea6;   /*Cor do texto: preto*/
+    --Marrom: #d36135;      /*Cor do texto: preto*/
+    --Branco: #f4fffd;      /*Cor do texto: preto*/
+    --AzulEscuro: #011936;  /*Cor do texto: branco*/
+    --Cinza: #465362;       /*Cor do texto: branco*/
+} 
+
+body {
+    background-color: var(--Branco);
+}
+
+#cadastro {
+    position: fixed;
+    right: 1%;
+    top: 1%;
+    color: white;
+    background-color: var(--Marrom);
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#cadastro:hover {
+    font-style: oblique;
+    font-size: 18px;
+    transition-duration: 0.25s;
+}
+
